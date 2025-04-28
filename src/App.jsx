@@ -165,8 +165,8 @@ function App() {
       </button>
       {isModalOpen && (
         <div className="modal-overlay" onClick={handleModalClick}>
+          <button className="modal-close" onClick={() => setIsModalOpen(false)}>×</button>
           <div className="modal-content">
-            <button className="modal-close" onClick={() => setIsModalOpen(false)}>×</button>
             <img src={NextLogo} alt="Logotipo da FIAP NEXT" className="modal-image" />
           </div>
         </div>

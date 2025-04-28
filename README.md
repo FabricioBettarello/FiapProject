@@ -1,12 +1,53 @@
-# React + Vite
+# FIAP - Landing Page Institucional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma landing page institucional para a FIAP, referência em tecnologia e inovação no Brasil. O objetivo é apresentar a faculdade, seus diferenciais, estrutura e formas de contato, com um design moderno e responsivo.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
+- **React** 19+
+- **Vite**
+- **CSS3** (com uso de fontes customizadas)
+- **JavaScript (ES6+)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Como rodar o projeto localmente
 
-## Expanding the ESLint configuration
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/FabricioBettarello/FiapProject
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Abra a pasta:**
+   ```bash
+   cd FiapProject
+   ```
+
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Acesse no navegador:**
+   Abra http://localhost:5173 para visualizar o projeto.
+
+## 📁 Estrutura do Projeto
+- `src/App.jsx` — Componente principal da aplicação
+- `src/App.css` — Estilos globais e responsivos
+- `src/assets/` — Imagens e SVGs utilizados
+
+## ✨ Funcionalidades
+- Layout moderno e responsivo
+- Animações sutis para melhor experiência do usuário
+- Seções: Header, Educação, Estrutura, Contato
+- Modal para visualização de imagens
+- Acessibilidade básica (alt em imagens)
+
+## 📝 Licença
+Este projeto é apenas para fins educacionais e não possui licença comercial.
+
+---
+
+Desenvolvido com 💻 por Fabricio.
