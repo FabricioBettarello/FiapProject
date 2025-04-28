@@ -39,13 +39,11 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Atualiza a barra de progresso
       const scrolled = window.pageYOffset;
       const windowHeight = document.documentElement.scrollHeight - window.innerHeight;
       const progress = (scrolled / windowHeight) * 100;
       document.documentElement.style.setProperty('--scroll-width', `${progress}%`);
 
-      // Verifica se deve mostrar o botão de voltar ao topo
       setShowScrollTop(scrolled > window.innerHeight);
     };
 
