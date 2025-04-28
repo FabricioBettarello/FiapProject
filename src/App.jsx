@@ -92,6 +92,9 @@ function App() {
             <img src={ScrollDown} alt="Rolar para baixo" />
           </button>
         </header>
+        <section className='subtitle-cel'>
+        <p>Referência em tecnologia e inovação no Brasil, a FIAP é uma faculdade que prepara profissionais para o futuro, com um ensino prático, professores atuantes no mercado e desafios reais que conectam os alunos às grandes empresas.</p>
+        </section>
         <section id='education'>
           <h2>Educação e tech</h2>
           <div className='content'>
