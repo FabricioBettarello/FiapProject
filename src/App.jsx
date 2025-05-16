@@ -116,7 +116,7 @@ function App() {
                 <li>- Cibersegurança</li>
               </ul>
               <p className="category"><span>/</span> UX/UI, Marketing Digital</p>
-              <p className="category"><span>/</span> Metodologia e Gestão</p>
+              <p className="category"><span>/</span> Metodologias e Gestão</p>
               <p>Além disso, a instituição incentiva fortemente o uso dessas metodologias e outras abordagens inovadoras que fazem parte do dia a dia de grandes empresas. </p>
             </div>
           </div>
