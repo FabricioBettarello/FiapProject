@@ -115,8 +115,8 @@ function App() {
                 <li>- Data Science</li>
                 <li>- Cibersegurança</li>
               </ul>
-              <p className="category"><span>/</span> Tecnologia e Desenvolvimento</p>
-              <p className="category"><span>/</span> Tecnologia e Desenvolvimento</p>
+              <p className="category"><span>/</span> UX/UI, Marketing Digital</p>
+              <p className="category"><span>/</span> Metodologia e Gestão</p>
               <p>Além disso, a instituição incentiva fortemente o uso dessas metodologias e outras abordagens inovadoras que fazem parte do dia a dia de grandes empresas. </p>
             </div>
           </div>
